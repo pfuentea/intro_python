@@ -15,6 +15,8 @@ texto ="estO eS uN textO"  # str
 decimal=0.7 # float
 proposicion=False # bool: verdadero o falso
 
+#print(type(entero)) 
+
 # otros tipos de datos u objetos
 # listas 
 lista = [4,7,2,8,10,'',15] #list
@@ -70,7 +72,7 @@ print(texto.find("eS")) #devuelve el indice de la primera aparicion de una caden
 print(texto.lower().count("to")) #se van realizando las transformaciones de izquierda a derecha
 lista2=["palabras","separadas","por","comas"]
 
-palabras=set(texto)
+palabras=set(texto) # construimos un CONJUNTO con las letras de la variable texto
 print(palabras)
 nueva_frase="/".join(lista2) #junta los elementos del conjunto o lista
 print(nueva_frase)

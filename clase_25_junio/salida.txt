@@ -1,0 +1,12 @@
+Ingrese su nombre: 
+Ingrese su direccion: 
+Bienvenido! Patricio que vive en Copiapó
+Ingrese su nombre: 
+Ingrese su direccion: 
+Bienvenido! Patricio que vive en Copiapó
+Ingrese su nombre: 
+Ingrese su direccion: 
+Bienvenido! Patricio que vive en Copiapó
+Ingrese su nombre: 
+Ingrese su direccion: 
+Bienvenido! Patricio que vive en Copiapó

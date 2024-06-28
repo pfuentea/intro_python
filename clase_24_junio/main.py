@@ -75,7 +75,9 @@ lista2=["palabras","separadas","por","comas"]
 palabras=set(texto) # construimos un CONJUNTO con las letras de la variable texto
 print(palabras)
 nueva_frase="/".join(lista2) #junta los elementos del conjunto o lista
-print(nueva_frase)
+print(nueva_frase) 
+
+
 
 
 

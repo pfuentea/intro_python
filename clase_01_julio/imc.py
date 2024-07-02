@@ -22,7 +22,13 @@ def clasificacion(indice):
 peso=float(sys.argv[1])
 altura=float(sys.argv[2])/100
 
+#llamo o invoco al método con 2 parametros
+imc(83,167)
+
 #print(sys.argv[0])
+# python imc.py [sys.argc[1] ] [sys.argv[2] sys.argv[3] ] 
+#python imc.py 83 167 200 400
+# argv = ['imc.py',83,167,200,400 ]
 
 #calcular IMC
 indice=imc(peso,altura)

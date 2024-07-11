@@ -1,0 +1,21 @@
+import preguntas as p
+import random
+
+def shuffle_alt(pregunta):
+    #mezclar alternativas
+    #######################################################################
+    #pregunta['alternativas']
+    alternativas=pregunta['alternativas']
+    alternativas_mezcladas = alternativas[:]
+    random.shuffle(alternativas_mezcladas)
+    #######################################################################
+    
+    return alternativas_mezcladas
+
+if __name__ == '__main__':
+    # si se ejecuta el  programa varias veces las alternativas debieran aparecer en distinto orden
+    print(p.pool_preguntas['basicas']['pregunta_1'])
+    print(shuffle_alt(p.pool_preguntas['basicas']['pregunta_1'])) 
+    #print(random.shuffle([['alt_1', 0], ['alt_3', 0], ['alt_2', 1], ['alt_4', 0]]))
+    # a modo de ejemplo
+    # [['alt_1', 0], ['alt_3', 0], ['alt_2', 1], ['alt_4', 0]]

@@ -15,12 +15,13 @@ class Medicamento():  #la firma de la clase (cabecera) #nombres se escriben con 
         self.nombre=nombre
         self.cantidad=0
         self.descripcion=None
+        self.descuento=0
     
     @classmethod  # se pone este decorador para un MÉTODO DE CLASE. No tengo que instanciar ningun objeto para usarlo
     def get_iva(cls):
         return cls.impuesto_valor_agregado
     
-    
+    # necesita que el objeto sea creado
     def get_descuento(self):
         return self.descuento
     

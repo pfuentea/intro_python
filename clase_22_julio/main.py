@@ -18,7 +18,6 @@ paracetamol.precio=precio_bruto
 aspirina.mostrar_info() 
 
 print(aspirina)
-
 print(paracetamol)
 
 

@@ -1,0 +1,10 @@
+Error al leer el registro: Expecting ',' delimiter: line 2 column 1 (char 99)
+Error al leer el registro: Expecting property name enclosed in double quotes: line 1 column 40 (char 39)
+Error al leer el registro: Expecting value: line 1 column 88 (char 87)
+2024-08-05 18:03:47 ERROR: Error al leer el registro: Expecting ',' delimiter: line 2 column 1 (char 99)
+2024-08-05 18:03:47 ERROR: Error al leer el registro: Expecting property name enclosed in double quotes: line 1 column 40 (char 39)
+2024-08-05 18:03:47 ERROR: Error al leer el registro: Expecting value: line 1 column 88 (char 87)
+[2024-08-05 18:04:05] ERROR: Error al leer el registro: Expecting ',' delimiter: line 2 column 1 (char 99)
+[2024-08-05 18:04:05] ERROR: Error al leer el registro: Expecting property name enclosed in double quotes: line 1 column 40 (char 39)
+[2024-08-05 18:04:05] ERROR: Error al leer el registro: Expecting value: line 1 column 88 (char 87)
+[2024-08-05 18:05:43] ERROR: El archivo usuarios1.txt no existe

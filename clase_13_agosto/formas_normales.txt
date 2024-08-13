@@ -1,0 +1,28 @@
+FORMAS NORMALES:
+
+Beneficios de normalizar:
+1.- Reducción de redundancia de los datos.
+2.- Mejora integridad de data.
+3.- Facilita mantenimiento y escalabilidad.
+4.- Optimización en rendimiento de las consultas.
+5.- Claridad y entendimiento del modelo de datos.
+6.- Facilita para realizar cambios.
+7.- Seguridad y control.
+
+PRIMERA FORMA NORMAL:
+para que una tabla este en 1FN debemos:
+- Cada atributo de la tabla debe ser atómico.( no pueden haber listas en un campo)
+- No hay atributos compuestos. (No debe existir un campo así:NombreApellido )
+- No hay atributos derivados. (Si tengo la fecha de nacimiento, no debería haber un campo EDAD)
+- No hay datos repetidos. (No se pueden repetir los valores de un campo. Esto los vamos a solucionar con las PK)
+- Columnas tienen nombres únicos.
+
+SEGUNDA FORMA NORMAL:
+Para que una tabla este en 2FN debemos:
+- Cada tabla debe estar en 1FN.
+- No debe haber atributos transaccionales en una tabla que no sea la tabla de transacciones
+
+TERCERA FORMA NORMAL
+Para que una tabla este en 3FN debemos:
+- Cada tabla debe estar en 2FN.
+- Eliminar las dependencias transitivas

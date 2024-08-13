@@ -1,0 +1,15 @@
+DDL: Data Definition Language (lenguaje de definicion de datos)
+- CREATE
+- DROP
+- ALTER
+- TRUNCATE
+- RENAME
+
+
+- DML: Data Manipulation Language (lenguaje de manipulacion de datos)
+- INSERT
+- UPDATE
+- DELETE
+- SELECT
+
+SQL: DDL + DML 
